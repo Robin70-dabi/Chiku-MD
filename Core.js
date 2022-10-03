@@ -873,13 +873,13 @@ if (antiVirtex) {
         if (AntiLinkAll)
            if (budy.includes("https://")){
         if (!isBotAdmins) return
-        bvl = `\`\`\`「  Antilink System/منع الروابط  」\`\`\`\n\nLink sent by Admin so no action will be taken/الادمن ارسل رابط والادمن حر في ارسال اي روابط!`
+        bvl = `\`\`\`「  منع الروابط  」\`\`\`\n\nالادمن ارسل رابط والادمن حر في ارسال اي روابط!`
         if (isAdmins) return reply(bvl)
         if (m.key.fromMe) return reply(bvl)
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System/منع الروابط  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending links in this group/تم طرده لإرسال الروابط في هذه المجموعة!!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  منع الروابط  」\`\`\`\n\n@${kice.split("@")[0]} تم طرده لإرسال الروابط في هذه المجموعة!!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
