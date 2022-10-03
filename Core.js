@@ -687,9 +687,8 @@ let afkTime = user.afkTime
 if (!afkTime || afkTime < 0) continue
 let reason = user.afkReason || ''
 reply(`
-Pls try not to tag him!
-He's in away from keyboard ${reason ? 'with reason ' + reason : 'no reason'}
-During ${clockString(new Date - afkTime)}
+متعملش ريب عليه لانه في وضع الاختفاء الان ${reason ? 'with reason ' + reason : 'بدون سبب'}
+مده الغياب ${clockString(new Date - afkTime)}
 `.trim())
 }
 
@@ -4886,6 +4885,9 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
 
 ⧉ -مخفي
 ⧉ منشن مخفي لكل الاعضاء 
+
+⧉ -المتصلين
+⧉ يجيب لك الاعضاء المتصله
  
 ⧉ -حذف
 ⧉ حذف رسالة البوت والاعضاء
