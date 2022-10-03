@@ -9,7 +9,7 @@
 <h1 align="center"> ᗴᒪᘜᗩᘔᗩᖇ ᗩᒪᗯᗩᘔᗴᖇ❤️
 </h1>
 <p align="center"> 
-  Konochiwa Senpai, I am "chiku md " a WhatsApp bot made by Ayush to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  Konochiwa Senpai, I am "elgazar md " a WhatsApp bot made by Ayush to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 
 <p align="center">
   <a href="https://github.com/Ayush-pandey-u/Chiku-MD/fork">
