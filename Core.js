@@ -2209,37 +2209,28 @@ await Miku.sendMessage(m.chat, { delete: key })
    break
 
 
-   case 'antiwame': {
-    if (isBan) return reply(mess.banned)	 			
- if (isBanChat) return reply(mess.bangc)
- if (!m.isGroup) return replay(mess.grouponly)
- if (!isBotAdmins) return replay(mess.botadmin)
- if (!isAdmins && !isCreator) return replay(mess.useradmin)
- if (args[0] === "on") {
- if (antiWame) return replay('Already activated')
- ntwame.push(from)
- replay('Activated antiwame !')
- var groupe = await Miku.groupMetadata(from)
- var members = groupe['participants']
- var mems = []
- members.map(async adm => {
- mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
- })
- Miku.sendMessage(from, {text: `\`\`\`*「  Warning/تحذير  」*\`\`\`\n\nAntilink is enabled/تم تفعيل منع الروابط!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
- } else if (args[0] === "off") {
- if (!antiWame) return replay('تم إلغاء تنشيطه بالفعل')
- let off = nttoxic.indexOf(from)
- ntwame.splice(off, 1)
- replay('Deactivated antiwame !')
- } else {
-   let buttonsntwame = [
-   { buttonId: `-antiwame on`, buttonText: { displayText: 'فتح' }, type: 1 },
-   { buttonId: `-antiwame off`, buttonText: { displayText: 'قفل' }, type: 1 }
-   ]
-   await Miku.sendButtonText(m.chat, buttonsntwame, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.BotName}`, m)
-   }
-   }
-   break
+break
+case 'antiphoto': case 'الصور': {
+if (!m.isGroup) throw mess.group
+if (!isBotAdmins) throw mess.botAdmin
+if (!isAdmins) throw mess.admin
+if (args[0] === "on") {
+if (db.chats[m.chat].antiphoto) return reply(`*Already on umm okay*`)
+db.chats[m.chat].antiphoto = true
+reply(`*Antiphoto active*`)
+} else if (args[0] === "off") {
+if (!db.chats[m.chat].antiphoto) return reply(`*Already off okay*`)
+db.chats[m.chat].antiphoto = false
+reply(`*Antiphoto disabled*`)
+} else {
+let drips = [
+{ buttonId: `${command} on`, buttonText: { displayText: 'ON' }, type: 1 },
+{ buttonId: `${command} off`, buttonText: { displayText: 'OFF' }, type: 1 }
+]
+await Wizard.sendButtonText(m.chat, drips, `*ANTIPHOTO MODE*`, Wizard.user.name, m)
+}
+}
+break
 
 
    case 'nsfw': case 'الاباحي': {
