@@ -1081,7 +1081,7 @@ let cron = require('node-cron')
             async function cerpen (category) {
               return new Promise((resolve, reject) => {
                   let title = category.toLowerCase().replace(/[()*]/g, "")
-                  let judul = title.replace(/\s/g, "-")
+                  let judul = title.replace(/\s/g, "")
                   let page = Math.floor(Math.random() * 5)
                   axios.get('http://cerpenmu.com/category/cerpen-'+judul+'/page/'+page)
                   .then((get) => {
@@ -1371,9 +1371,9 @@ switch(command) {
     case 'sc': case 'التبرع': case 'sourcecode': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-    teks = `*${global.BotName}'s Script*\n\n*Yotube/يوتيوب*: ${global.BotSourceCode}\n\nلا تنسي الاشتراك بقناه اليوتيوب⭐️. `
+    teks = `*${global.BotName}' سكريبت*\n\n*يوتيوب*: ${global.BotSourceCode}\n\nلا تنسي الاشتراك بقناه اليوتيوب⭐️. `
     let buttons = [
-    {buttonId: `-menu`, buttonText: {displayText: '✨Bot Menu/قائمه البوت✨'}, type: 1}
+    {buttonId: `-menu`, buttonText: {displayText: 'قائمه البوت✨'}, type: 1}
     ]
     let buttonMessage = {
     image: Thumb,
@@ -1585,7 +1585,7 @@ break
 case 'wallpaper': case 'animewallpaper': case 'ويلبر': {
 if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
-if (!args.join(" ")) return reply("Please enter a term to search!")
+if (!args.join(" ")) return reply("اكتب اسم الانمي اللي تبحث عنو بالانجليزي!")
 const { AnimeWallpaper } =require("anime-wallpaper")
 const wall = new AnimeWallpaper();
 const pages = [1,2,3,4];
@@ -1598,7 +1598,7 @@ let buttons = [
         ]
         let buttonMessage = {
             image: {url:wallpaper[i].image},
-            caption: `*Search term:* ${q}`,
+            caption: `*موضوع البحث:* ${q}`,
             footer: `${BotName}`,
             buttons: buttons,
             headerType: 4
@@ -1746,7 +1746,7 @@ case 'coffee': case 'قهوه': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
                 let buttons = [
-                        {buttonId: `-coffee`, buttonText: {displayText: '>>'}, type: 1}
+                        {buttonId: `-قهوه`, buttonText: {displayText: '>>'}, type: 1}
                     ]
                     let buttonMessage = {
                         image: { url: 'https://coffee.alexflipnote.dev/random' },
@@ -2951,7 +2951,7 @@ gis(args.join(" "), async (error, result) => {
 n = result
 images = n[Math.floor(Math.random() * n.length)].url
 let buttons = [
-{buttonId: `-gimage ${args.join(" ")}`, buttonText: {displayText: '>>'}, type: 1}
+{buttonId: `-صوره ${args.join(" ")}`, buttonText: {displayText: '>>'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: images },
@@ -3128,7 +3128,7 @@ if (isBanChat) return reply(mess.bangc)
 if (!args[0]) return reply(`Example :\n${prefix + command} https://twitter.com/cinema21/status/1517754155644821504?t=rUnbyqwh4vAE1QXMXlsVeQ&s=19`)
 try {
 let lotwit = await aiovideodl(args[0])
-teks = `「 _Twitter Downloader_ 」
+teks = `「 التحميل من تويتر_ 」
 Caption : ${lotwit.title ? lotwit.title : "undefined"}
 Type : ${lotwit.medias[1].extension}
 Size : ${lotwit.medias[1].formattedSize}
@@ -4148,7 +4148,7 @@ case 'نوم' :
 reply(mess.waiting)
     waifudd = await axios.get(`https://waifu.pics/api/sfw/nom`)
  let xxhnekobot = [
-    {buttonId: `-animenom`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `-نوم`, buttonText: {displayText: `>>`}, type: 1},
     ]
   let xx1button3Messages = {
    image: {url:waifudd.data.url},
@@ -4168,7 +4168,7 @@ case 'وايفي2':
 reply(mess.waiting)						
  waifudd = await axios.get(`https://nekos.life/api/v2/img/waifu`)
                            var wbuttsss = [
-        {buttonId: `-waifu3`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `-وايفي2`, buttonText: {displayText: `>>`}, type: 1},
         ]
       let button112ssMessages = {
        image: {url:waifudd.data.url},
@@ -4215,7 +4215,7 @@ case 'نيكو2':
 reply(mess.waiting)							
    waifud = await axios.get('https://waifu.pics/api/sfw/neko')
                 var wbutsss = [
-        {buttonId: `-neko2`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `-نيكو2`, buttonText: {displayText: `>>`}, type: 1},
         ]
       let buttonssMessage = {
        image: {url:waifud.data.url},
@@ -4642,7 +4642,7 @@ case 'مانجا':
 reply(mess.waiting)							
 const { Manga } =require("@shineiichijo/marika")
 const manga = new Manga();
-if(!q) return reply(`Please proide a search term!\n\n_Example:_ ${prefix}manga naruto`)
+if(!q) return reply(`اكتب اسم شخصيه انمي للبحث!\n\n_مثال:_ ${prefix}مانجا naruto`)
 let srh = await manga.searchManga(q)
     let mang = `*Title:* ${srh.data[0].title}\n`;
     mang += `*Status:* ${srh.data[0].status}\n`;
@@ -4700,7 +4700,7 @@ case 'نيكو' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/neko')
  var wbuttsssr = [
-    {buttonId: `-neko`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `-نيكو`, buttonText: {displayText: `>>`}, type: 1},
     ]
         let buttonMessagessf = {
         image: {url:waifuddd.data.url},
@@ -5190,7 +5190,7 @@ case 'add': case 'اضافه':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-    if (!args[0]) return reply("من فضلك أعطني نصًا حتى أستطيع التحدث به!")
+    if (!args[0]) return reply("من فضلك اكتب اي شئ انجليزي و سوف انطقه!")
       
       let texttosay = text
         ? text
