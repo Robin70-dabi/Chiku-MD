@@ -1081,7 +1081,7 @@ let cron = require('node-cron')
             async function cerpen (category) {
               return new Promise((resolve, reject) => {
                   let title = category.toLowerCase().replace(/[()*]/g, "")
-                  let judul = title.replace(/\s/g, "")
+                  let judul = title.replace(/\s/g, "-")
                   let page = Math.floor(Math.random() * 5)
                   axios.get('http://cerpenmu.com/category/cerpen-'+judul+'/page/'+page)
                   .then((get) => {
@@ -2192,7 +2192,7 @@ await Miku.sendMessage(m.chat, { delete: key })
  members.map(async adm => {
  mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
  })
- Miku.sendMessage(from, {text: `\`\`\`「 تحذير 」\`\`\`\n\nتم تنشيط نظام منع الروابط!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+ Miku.sendMessage(from, {text: `\`\`\`「 تحذير 」\`\`\`\n\nتم تنشيط نظام منع الروابط اي شخص سيرسل رابط سيتم طرده علي الفور!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
  } else if (args[0] === "off") {
  if (!AntiLinkAll) return replay('تم إلغاء تنشيطه بالفعل')
  let off = ntilinkall.indexOf(from)
@@ -2636,7 +2636,7 @@ let mentioned = participants.map(v => v.jid)
      }
      break
 
-     case 'promote': case 'رفع': {
+     case 'ارفع': case 'رفع': case 'ترقيه': case 'ترقية': {
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!m.isGroup) return replay(mess.grouponly)
@@ -2647,7 +2647,7 @@ let mentioned = participants.map(v => v.jid)
      }
      break
 
-     case 'demote': case 'تنزيل': {
+     case 'نزل': case 'تنزيل': {
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!m.isGroup) return replay(mess.grouponly)
@@ -2658,7 +2658,7 @@ let mentioned = participants.map(v => v.jid)
      }
      break
 
-     case 'remove': case 'طرد': case 'اطرد':{
+     case 'طلع': case 'طرد': case 'اطرد':{
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!m.isGroup) return replay(mess.grouponly)
@@ -2670,7 +2670,7 @@ let mentioned = participants.map(v => v.jid)
      break
 
 
-     case 'join': case 'انضم': {
+     case 'ادخل': case 'انضم': {
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!isCreator) return replay(mess.botowner)
@@ -3485,8 +3485,8 @@ if (isBanChat) return reply(mess.bangc)
          reply(mess.waiting)
          let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
          let random = anu[Math.floor(Math.random() * anu.length)]
-         Miku.sendMessage(m.chat, { image: { url: random.male }, caption: `ولد🙎` }, { quoted: m })
-         Miku.sendMessage(m.chat, { image: { url: random.female }, caption: `بنت🙎🏻‍♀️` }, { quoted: m })
+         Miku.sendMessage(m.chat, { image: { url: random.male }, caption: `ولد🙎🏻‍♂️` }, { quoted: m })
+         Miku.sendMessage(m.chat, { image: { url: random.female }, caption: `بنت️🙎🏻‍♀️` }, { quoted: m })
      }
  break
 
@@ -5111,7 +5111,7 @@ case '':
       mikupic ='https://telegra.ph/file/f1a719ad79f830231d984.jpg'
     
         
- const needhelpmenu = `اضغط علي القائمه لظهور قائمه الاوامر *${prefix}*.`
+ const needhelpmenu = `مرحبا بك في بوت الجزار لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه *${prefix}*.`
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
@@ -5129,11 +5129,11 @@ break
 
 
 
-case 'الجزار':
+case 'الجزار': case 'جزار': case 'عبدالله':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `الجزار بيحبك🌚/رقمي للتواصل معايا https://api.whatsapp.com/send?phone=+201098906252ا.`
+const txt = `الجزار بيحبك🌚❤️ / رقمي للتواصل معايا: https://api.whatsapp.com/send?phone=+201098906252 / قناتي علي اليوتيوب: https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g / الانستجرام بتاعي: https://instagram.com/a_d_a_l_l_a_h?igshid=YmMyMTA2M2Y=`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
