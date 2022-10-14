@@ -32,11 +32,11 @@
       
 </br> 
    
-#### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 2 days because i am continuously debugging it and making major changes in it.
+#### ✧✧ لا يزال هذا الروبوت قيد التطوير ، لذا إذا كنت تريد إعادة ترميزه / تعديله ، فيرجى التحقق من هذا الريبو الرئيسي مرة واحدة كل يومين لأنني أقوم باستمرار بتصحيحه وإجراء تغييرات كبيرة فيه.
 </br>
   
 
-## ✧✧✧ Why use chiku as your Base?
+## ✧✧✧ لماذا تستخدم ELGAZAR كقاعدة لك?
 
 ```
 1. Copyright Free.
