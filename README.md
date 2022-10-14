@@ -88,7 +88,7 @@
 
 
 
-## ✧ Heroku Builbpacks:
+## ✧ حزم هيروكو:
 
 ```
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
@@ -101,28 +101,28 @@ heroku/nodejs
 ```
 
 
-## ✧✧✧ Join My Whatsapp Group for Support
+## ✧✧✧ انضم الي جروب الدعم للمساعده
 
-<a href="https://chat.whatsapp.com/DYp7FwfL9xsKURihcdT0l8"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
-## ✧✧✧ CMD Deployment Method
+## ✧✧✧ طريقه النشر علي تيرمكس
 
 ##git clone(https://github.com/Ayush-pandey-u/Chiku-MD.git)
 ##cd Miku-MD
 npm i
 
 
-### ✧ Requirements for CMD istallation:
+### ✧ متطلبات الاستغناء عن CMD:
 - Git
 - Node.js
 - Libwebp
 - FFmpeg
 
-Note: If you don't pre-install these plugins before CMD Installation bot couldn't execute name commands!
+Note: إذا لم تقم بتثبيت هذه المكونات الإضافية مسبقًا قبل أن يتعذر على برنامج تيرمكس Installation bot تنفيذ أوامر الاسم!
 </br> 
 
-## ✧✧✧ Termux Deployment Method
+## ✧✧✧ التنصيب علي تيرمكس
 ```js
 apt update
 apt upgrade
@@ -140,7 +140,7 @@ npm i
 npm start
 ```
 
-## ✧✧✧ To keep chiku alive without internet 24/7
+## ✧✧✧ لإبقاء Elgazar على قيد الحياة بدون الإنترنت 24/7
 
 ```
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
