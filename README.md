@@ -39,38 +39,38 @@
 ## ✧✧✧ لماذا تستخدم ELGAZAR كقاعدة لك?
 
 ```
-1. Copyright Free.
-2. No Source Code Encryption.
-3. Most commands.
-4. Singe prefix ("-").
-5. Self restoration.
-6. No API key needed!
-7. Full premission to Recode.
-8. Regularly Updating and Improving.
-9. Supports Latest WhatsApp, GB, Fouad, Alpha, YoWhatsApp and all other mods (MD).
+1. حقوق الطبع والنشر خالية.
+2. لا يوجد تشفير شفرة المصدر.
+3. معظم الأوامر.
+4. بادئة مفردة ("-").
+5. استعادة الذات.
+6. لا حاجة لمفتاح API!
+7. فرضية كاملة لإعادة الترميز.
+8. التحديث والتحسين بانتظام.
+9. يدعم أحدث WhatsApp و GB و Fouad و Alpha و YoWhatsApp وجميع التعديلات الأخرى (MD).
 
-✧ The main motto of this project is to provide Beginner Devs a base without any limitations 😊.
-✧ Check "Credits" section and Support Them too.
+✧ الشعار الرئيسي لهذا المشروع هو توفير قاعدة للمطورين المبتدئين دون أي قيود 😊.
+✧ تحقق من قسم "الاعتمادات" ودعمهم أيضًا.
 
--regards Ayush
+-تحية للجميع
 ```
 </br>
 
-## ✧✧✧ Video tutorial for Heroku Deploy:
+## ✧✧✧ اشترك في قناتي باليوتيوب لدعمي في الاستمرار في تطوير البوت:
 
-<a href="https://youtu.be/DcJ7qMXUcTM"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
+<a href="https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
 
-Here's the Video Tuturial for Deploying and Hosting Miku Bot on Heroku.
+سيتم نشر طريقه تفعيل البوت علي هذه القناه.
 
-## ✧✧✧ Heroku Deployment Method:
+## ✧✧✧ طريقة نشر هيروكو:
 
-####  Scan indirectly from my `repl.it`
+####  مسح بشكل غير مباشر من ملف `` repl.it`
 
 #### <a href="https://replit.com/@bm077197/ELGAZAR-BOT-MD"><img src="https://i.ibb.co/pPQjJL2/replit-logo-png-transparent.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
-#### if you can see device not connected error then refresh The qr page and scan again within 15 seconds
+#### إذا كان بإمكانك رؤية خطأ غير متصل بالجهاز ، فقم بتحديث صفحة qr وقم بالمسح مرة أخرى في غضون 15 ثانية
           
 
-#### ✧ [![chiku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ayush-pandey-u/Chiku-MD)
+#### ✧ [![ELGAZAR](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ayush-pandey-u/Chiku-MD)
 
 
 
