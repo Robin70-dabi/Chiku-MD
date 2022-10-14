@@ -687,7 +687,7 @@ let afkTime = user.afkTime
 if (!afkTime || afkTime < 0) continue
 let reason = user.afkReason || ''
 reply(`
-متعملش ريب عليه لانه في وضع الاختفاء الان ${reason ? 'with reason ' + reason : 'بدون سبب'}
+متعملش ريب عليه لانه في وضع الاختفاء الان ${reason ? 'السبب ' + reason : 'بدون سبب'}
 مده الغياب ${clockString(new Date - afkTime)}
 `.trim())
 }
@@ -2294,7 +2294,7 @@ replay(`تم حظر المستخدم بنجاح.`)
 if (!isBane) return ads('User is already unbanned.')
 let delbans = banUser.indexOf(orgnye)
 banUser.splice(delbans, 1)
-replay(`تم بنجاح إلغاء حظر المستخدم بنجاح.`)
+replay(`تم إلغاء حظر المستخدم بنجاح.`)
 } else {
 replay("ايرور🙂!")
 }
@@ -3005,7 +3005,7 @@ case 'google': case 'جوجل': {
  }
  ilod = 1
  for (let i of ini_anu) {
- anu_list.push({buttonId: `-ig ${i.type} ${i.url}`, buttonText: {displayText: `وسائل الاعلام ${ilod++}`}, type: 1})
+ anu_list.push({buttonId: `-انستجرام ${i.type} ${i.url}`, buttonText: {displayText: `وسائل الاعلام ${ilod++}`}, type: 1})
  }
  textbv += `\n\n_Select the media below to download_`
  let buttons = anu_list
@@ -3256,7 +3256,7 @@ case 'fbddlxx': {
  }
  break
 
- case 'tiktok':{
+ case 'تيكتوك':{
     if (isBan) return reply(mess.banned)
   if (isBanChat) return reply(mess.bangc)
 if (!q) return reply('Please provide the link !')
@@ -3300,7 +3300,7 @@ reply(mess.error)
 break
 
 case 'tiktokaudio':
-case 'tiktokmusic':
+case 'التبرعmusic':
 case 'ttaud':{
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
