@@ -66,7 +66,7 @@
 
 ####  مسح بشكل غير مباشر من ملف `` repl.it`
 
-#### <a href="https://replit.com/@bm077197/ELGAZAR-BOT-MD"><img src="https://i.ibb.co/pPQjJL2/replit-logo-png-transparent.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
+#### <a href="https://replit.com/@bm077197/ELGAZAR-BOT-MD"><img src="https://i.imgur.com/gtK4XLX.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
 #### إذا كان بإمكانك رؤية خطأ غير متصل بالجهاز ، فقم بتحديث صفحة qr وقم بالمسح مرة أخرى في غضون 15 ثانية
           
 
