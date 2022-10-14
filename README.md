@@ -9,7 +9,7 @@
 <h1 align="center"> ᗴᒪᘜᗩᘔᗩᖇ ᗩᒪᗯᗩᘔᗴᖇ❤️
 </h1>
 <p align="center"> 
-  Konochiwa Senpai, I am "elgazar md " a WhatsApp bot made by Ayush to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  أنا "الجزار بوت" روبوت واتساب تم إنشاؤه بواسطة الجزار الوزير للقيام بكل ما هو ممكن على واتساب بناءً على دعم واتساب (MD) ELGAZAR..
 
 <p align="center">
   <a href="https://github.com/Ayush-pandey-u/Chiku-MD/fork">
