@@ -70,21 +70,20 @@
 #### إذا كان بإمكانك رؤية خطأ غير متصل بالجهاز ، فقم بتحديث صفحة qr وقم بالمسح مرة أخرى في غضون 15 ثانية
           
 
-#### ✧ [![ELGAZAR](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ayush-pandey-u/Chiku-MD)
+#### ✧ [![ELGAZAR](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jhsishdjjsk/Chiku-MD)
 
 
-
-#### ✧ `Fork` this repo.
-####  Scan indirectly from my `repl.it`
-#### ✧ Download the `session.json` file and upload it on the hompage of your `Fork`.
-#### ✧ Go to your `Heroku` account.
-#### ✧ Create a `random app` in Heroku with any name.
-#### ✧ Connect your `GitHub` with `Heroku`
-#### ✧ Then connect `chiku's repo` from your GitHub.
-#### ✧ Go to Heroku's `settings` ---> `Add Buildpacks` then connect these 3 buildpacks one by one mentionned    below.
-#### ✧ Then come back to `Heroku` ---> `Deploy` then deploy the app
-#### ✧ After deploy is finished goto `Heroku` ---> `Resources` and turn on the switch.
-#### ✧ Enjoy :)
+#### ✧ `Fork` هذه الريبو.
+#### مسح بشكل غير مباشر من "Rep.it" الخاص بي
+#### ✧ قم بتنزيل ملف `session.json` وحمله على ملف` Fork` الخاص بك.
+#### ✧ اذهب إلى حساب "Heroku" الخاص بك.
+#### ✧ قم بإنشاء "تطبيق عشوائي" في Heroku بأي اسم.
+#### ✧ قم بتوصيل "GitHub" بـ "Heroku"
+#### ✧ ثم قم بتوصيل "ELGAZAR's repo" من GitHub الخاص بك.
+#### ✧ انتقل إلى "إعدادات" Heroku ---> "إضافة Buildpacks" ثم قم بتوصيل حزم البناء الثلاثة واحدة تلو الأخرى المذكورة أدناه.
+#### ✧ ثم ارجع إلى "Heroku" ---> "نشر" ثم انشر التطبيق
+#### ✧ بعد انتهاء النشر ، انتقل إلى "Heroku" ---> "الموارد" وقم بتشغيل المفتاح.
+#### ✧ استمتع :)
 
 
 
