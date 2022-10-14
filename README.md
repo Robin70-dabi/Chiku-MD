@@ -108,7 +108,7 @@ heroku/nodejs
 
 ## ✧✧✧ طريقه النشر علي تيرمكس
 
-##git clone(https://github.com/Ayush-pandey-u/Chiku-MD.git)
+##git clone(https://github.com/Jhsishdjjsk/Chiku-MD)
 ##cd Miku-MD
 npm i
 
